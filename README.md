@@ -141,4 +141,4 @@ Issue dan pull request diterima. Sebelum membuka PR, jalankan `make all`. Jika m
 
 ## Lisensi
 
-[MIT](LICENSE). **Ganti `<GANTI-DENGAN-NAMA-ANDA>` di LICENSE dan `<USER>` di README ini** sebelum dipublikasikan.
+[MIT](LICENSE). **Ganti `<ANNASAFYAH>` di LICENSE dan `kairo31` di README ini** sebelum dipublikasikan.
