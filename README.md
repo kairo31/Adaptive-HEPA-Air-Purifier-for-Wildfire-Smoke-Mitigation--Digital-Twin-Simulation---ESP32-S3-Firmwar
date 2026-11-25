@@ -34,6 +34,12 @@ Garis putus-putus = opsional. Versi paling sederhana hanya sensor udara, ESP32-S
 
 **Logika kontrol** (sama di simulator dan firmware): bacaan PMS5003 dikoreksi untuk kelembapan dan bias asap, dihaluskan (EMA 5 menit), lalu dipetakan ke OFF/LOW/MEDIUM/TURBO memakai batas ISPU (15,5 / 55,4 / 150,4 µg/m³). **Naik langsung, turun pelan:** turun hanya setelah melewati ambang-turun (80% ambang naik) dan tertahan minimal 15 menit, agar kipas tidak berkedip.
 
+## Rancangan wiring
+
+![Ilustrasi wiring konseptual purifier HEPA dan klip jari opsional](docs/images/wiring-prototype.jpeg)
+
+Diagram ini adalah rancangan konseptual. Klip jari/wearable dan BLE belum dibuat atau diuji; lihat [catatan firmware](firmware/README.md) sebelum merakit perangkat keras.
+
 ## Struktur repo
 
 ```
